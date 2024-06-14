@@ -1,0 +1,24 @@
+{
+  "name": "donor_website",
+  "version": "1.0.0",
+  "description": "A site to connect people open to being a living donor with people who need a life saving donation. Hospitals can register availability of the organs in their premises which can be seen by the Recipient in the website in a tabular form.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "engines": {
+    "node": "v20.9.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.20",
+    "node": "^18.17.1"
+  },
+  "devDependencies": {}
+}

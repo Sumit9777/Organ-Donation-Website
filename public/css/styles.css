@@ -1,0 +1,222 @@
+nav{
+    z-index: 999;
+    width: 100% !important;
+    margin-top: 2% !important;
+}
+
+.nav-item a{
+    /* color: white ; */
+    /* font-style: italic !important; */
+    font-weight: 1000 !important;
+    font-size: 1.5em !important;    /* font-weight: bolder !important; */
+    font-family: 'Dancing Script', cursive;
+}
+#navigator a{
+    font-size: 1.2em;
+    color: black;
+}
+.add2{
+    padding: 20px 50px !important;
+    background-color: #21094e !important;
+}
+.add{
+    font-style: italic;
+    font-size: 1.2em !important;
+    /* border-bottom: solid; */
+    /* border-color: #21094e; */
+}
+.add3{
+    margin:0px 6px;
+}
+
+.information{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+.main-heading{
+    font-family: 'Dancing Script', cursive;
+    padding: 20px;
+    font-size: 7em;
+    color:darkred;
+}
+.information h1{
+    padding: 20px;
+}
+.information a{
+    padding-left: 40px ;
+    padding-right: 40px ;
+    background-color: #21094e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+}
+.starting img{
+    background-attachment: fixed;
+}
+.mainimg{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+hr{
+    width: 40%;
+    margin: auto;
+    border-style:solid;
+    border-width: 2px;
+    border-color:black;
+    /* size: 2px; */
+    border-bottom: none;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    /* justify-content: center; */
+}
+nav{
+    position: absolute !important;
+    top: 0px !important;
+}
+.starting
+{
+    padding-bottom: 15px;
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    color: darkblue;
+}
+.middle-1{
+    background-color: #334443;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: white;
+    padding: 100px;
+    clip-path: polygon(5% 0%, 100% 0%, 95% 90%, 0% 90%) !important;
+    text-align: center;
+    /* padding-top: 50px; */
+}
+.c1{
+    background-color: rgb(248, 248, 248);
+    padding: 20px;
+}
+.c2{
+    background-color: white;
+    padding: 50px;
+}
+.c2-first{
+    /* padding: 50px; */
+    text-align: left;
+}
+.c2-second img{
+    height: 350px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+.c1-first{
+    padding: 50px;
+    text-align: left;
+}
+.c1-second img{
+    /* height: 400px; */
+    width: 50%;
+    height: 80%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c3-second img{
+    width: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* height: 300px; */
+    display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  height: 80%;
+}
+.final-list{
+    list-style: none;
+}
+.final-list a{
+    text-decoration: none;
+    color: white;
+}
+.final-border{
+    padding-left: 10px;
+    border-left: solid;
+    border-width: 3px;
+    border-color: white;
+    margin-bottom: 40px;
+}
+.final-list li{
+    padding: 5px;
+}
+.last{
+    padding: 50px;
+    background-color:#364547;
+    color: white;
+}
+@media(max-width:1300px){
+    .alink{
+        background-color: white;
+    }
+    .main img{
+        background-size: 100% !important;
+        min-height: 100% !important;
+        height: 100vh !important;
+        background-size: cover;
+    }
+    .c3-second img{
+        /* width: 80%; */
+        /* height: 300px; */
+        width: 70%;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .c1-second img{
+        width: 70%;
+        /* height: 500px; */
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .c2-second img{
+        width: 70%;
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+    .c2-first{
+        /* margin: auto; */
+        padding: 20px;
+    }
+    .middle-1{
+        background-color: #e1e5ea;
+        color: black;
+        clip-path: none !important;
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+        /* margin: 5%; */
+    }
+	.main-heading{	
+		font-size:40px;	
+        font-size: 3.5em;
+	}
+	.information{
+    	top: 30%;
+        /* padding: 10px; */
+    }
+    .information h1{
+        padding: 20px;
+    }
+    .starting{
+        font-size: 2em ;
+        padding-bottom: 10px;
+    }
+    hr{
+        margin-bottom: 30px;
+    }
+    .information-button{
+        padding: 10px 20px !important;
+    }
+}
